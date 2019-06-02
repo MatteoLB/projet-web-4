@@ -1,0 +1,29 @@
+h1, h2
+{
+    color: #ffffffd6;
+}
+
+p, .charactersList
+{
+    color: #ffffffb3;
+}
+
+.text-orange
+{
+    color: orange;
+}
+
+.charactersList
+{
+    flex-wrap: wrap;
+}
+
+.charactersList div
+{
+    flex: 1;
+}
+
+.charactersList img
+{
+    height: 70px;
+}

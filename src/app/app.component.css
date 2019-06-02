@@ -1,0 +1,63 @@
+.mainMenu
+{
+    background: #12161D;
+    position: fixed;
+    bottom: -1px;
+    z-index: 100;
+}
+
+.mainMenu ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 8px 0px 0px 0px;
+}
+
+.mainMenu ul img, .mainMenu ul svg
+{
+    height: 25px;
+    width: 40px;
+    fill: #A2A2A2;
+}
+
+.mainMenu ul li a
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+.mainHeader
+{
+    background: #12161D;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.mainHeader a
+{
+    margin-right: auto;
+    line-height: 0;
+}
+
+.mainHeader svg
+{
+    height: 20px;
+    fill: white;
+}
+
+.mainHeader h1
+{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 0px;
+    line-height: 1;
+}

@@ -1,0 +1,115 @@
+<h1 class="h2 text-center">AppTitle</h1>
+
+<button (click)="displayLogin()" class="btn btn-info">Log in</button>
+<button (click)="displaySignin()" class="btn btn-secondary">Sign in</button>
+
+
+<div class="row px-1 mt-4 signInFormRow" *ngIf="loginOrSignin == 1">
+    <h2 class="h4 col-12">Your account</h2>
+    <form class="col-12" (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div class="form-group">
+          <label for="signInMail">Email address</label>
+          <input type="email" class="form-control" id="signInMail" placeholder="name@example.com" name="signInMail" required ngModel>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Password</label>
+            <input type="password" class="form-control" id="signInPassword" placeholder="Password" name="signInPassword" required ngModel>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Confirm password</label>
+            <input type="password" class="form-control" id="signInConfirmPassword" placeholder="Confirm password" required name="signInConfirmPassword" ngModel>
+        </div>
+
+        <div class="form-group">
+            <label for="avatar">Avatar</label>
+            <input type="file" class="form-control-file" id="avatar" name="avatar" ngModel>
+        </div>
+        
+        <div class="form-group">
+            <label>Languages</label><br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="frenchCheckbox" value="fr" name="frenchCheckbox" ngModel>
+                <label class="form-check-label" for="frenchCheckbox">French</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="englishCheckbox" value="en" name="englishCheckbox" ngModel>
+                <label class="form-check-label" for="englishCheckbox">English</label>
+              </div>
+        </div>
+
+        <h2 class="h4">Your game <br>
+          <small>(you can add another one later on)</small>
+        </h2>
+
+        <div class="form-group">
+          <label for="selectGame">Which game</label>
+          <select class="form-control" id="selectGame" name="selectGame" required ngModel>
+            <option selected>Overwatch</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+            <label>Choose your platform</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="radioPlatformChoice" id="platformPC" value="0" required ngModel>
+              <label class="form-check-label" for="platformPC">PC</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="radioPlatformChoice" id="platformXBOX" value="1" required ngModel>
+              <label class="form-check-label" for="platformXBOX">Xbox One</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="radioPlatformChoice" id="platformPS4" value="2" required ngModel>
+              <label class="form-check-label" for="platformPS4">PS4</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+          <label for="username">Your username in this game</label>
+          <input type="text" class="form-control" id="username" placeholder="Username" name="username" required ngModel>
+        </div>
+
+        <div class="form-group">
+          <label for="battletag">Your battletag</label>
+          <input type="text" class="form-control" id="battletag" placeholder="Ex : #9999" name="battletag" required ngModel>
+        </div>
+
+        <div class="form-group">
+            <label>What is your role ? (you can change this anytime you launch a new research)</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="radioRoleChoice" id="roleTank" value="tank" ngModel>
+              <label class="form-check-label" for="roleTank">Tank</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="radioRoleChoice" id="roleDps" value="dps" ngModel>
+              <label class="form-check-label" for="roleDps">DPS</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="radioRoleChoice" id="roleSupport" value="support" ngModel>
+              <label class="form-check-label" for="roleSupport">Support</label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success" [disabled]="f.invalid">Sign in</button>
+      </form>
+</div>
+
+<div class="row px-1 mt-3 logInFormRow" *ngIf="loginOrSignin == 2">
+  <h2 class="h4 col-12">Login</h2>
+
+  <form class="col-12" (ngSubmit)="onSubmit(f)" #f="ngForm">
+      <div class="form-group">
+        <label for="logInMail">Email address</label>
+        <input type="email" class="form-control" id="logInMail" placeholder="name@example.com" name="logInMail" ngModel>
+      </div>
+
+      <div class="form-group">
+          <label for="logInPassword">Password</label>
+          <input type="password" class="form-control" id="logInPassword" placeholder="Password" name="logInPassword" ngModel>
+      </div>
+
+      <button type="submit" class="btn btn-success">Log in</button>
+  </form>
+
+</div> 
