@@ -1,0 +1,45 @@
+[
+{"type":"header","version":"4.8.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"reseau_gamers"},
+{"type":"table","name":"groups","database":"reseau_gamers","data":
+[
+
+]
+}
+,{"type":"table","name":"messages","database":"reseau_gamers","data":
+[
+
+]
+}
+,{"type":"table","name":"players","database":"reseau_gamers","data":
+[
+{"id":"1","users_id":"29","platform":"0","game":"Overwatch","username":"abc","battletag":"abc","role":"tank","main_heroes":null,"searching":"0","datehr_search_start":null}
+]
+}
+,{"type":"table","name":"users","database":"reseau_gamers","data":
+[
+{"id":"1","mail":"abc","password":"abc","salt":"","avatar":"abc","languages":"abc","datehr_inscription":"2019-04-30 12:26:29"},
+{"id":"3","mail":"def","password":"abc","salt":"","avatar":"abc","languages":"abc","datehr_inscription":"2019-04-30 15:03:13"},
+{"id":"4","mail":"ghi","password":"abc","salt":"","avatar":"abc","languages":"abc","datehr_inscription":"2019-05-07 09:46:06"},
+{"id":"5","mail":"test","password":"c8fcad748644ad0eb8b29d59f92dee0a80129e20f614896aebfcaf741510f49d61e4adf85580e9c331be5bdd0da610a691ceca3ac6c5718e774c113b292da62f","salt":"57e881fd","avatar":"test","languages":"test","datehr_inscription":"2019-05-07 11:49:22"},
+{"id":"6","mail":"test2","password":"b52cab5353606ea82431fdabcfd1c6a2b68f4c17b7d9f8fd0856173a4a9717835cd3a2ffa1e3ee0528e28e7d2b97401ad4d8ef96a5e3818ff991cc63ae9ffc98","salt":"173405c1","avatar":"test","languages":"test","datehr_inscription":"2019-05-07 11:54:11"},
+{"id":"7","mail":"test3","password":"571bc1e98b5906770982e777f6ccf9b01c2eda7571406b5a797c584e66294140803e7341efb611c6c7b877641a5f042d9ede94054e42cb89083c662f810ebd8a","salt":"a15082d0","avatar":"test","languages":"test","datehr_inscription":"2019-05-07 11:54:32"},
+{"id":"8","mail":"test4","password":"778d9b21c762552b3be0bac0525c6b9fcc4f1bd6a7b4d262df9cd740df8d002f854515445d5ec160acb4da058834037d08a0386f3c990dd0c24d33292d2e9e3e","salt":"a18e2d9f","avatar":"test","languages":"test","datehr_inscription":"2019-05-07 16:28:55"},
+{"id":"9","mail":"test5","password":"6f678df00a7cf22b25fa2370ddc8fb56f52cfcbf1bad450075b67ef2e3e9aa4b42af6aa2ded61700c4830149c541ec1705ed5ebb8ab28af1c4a6ecaddfd6fa04","salt":"e697272c","avatar":"test","languages":"test","datehr_inscription":"2019-05-07 16:30:02"},
+{"id":"16","mail":"abc1","password":"a9d2c621c38b69ea0a85bc94d2fc1899d1572a9933151eeea969dc6d45abca405b03979b745a5f7185dd8a08388bb4a368591fcc98f063ac32b7d4b5a224c6f2","salt":"f5f97fc8","avatar":"","languages":"fr - ","datehr_inscription":"2019-05-26 00:23:02"},
+{"id":"17","mail":"abc2","password":"7ccda75c11eb8d2ead3260ab7731d73c5f6f230032b7b68ae0d0b689ba32c0a10a1119d42804002213661e2c2f5420e3e7e91d278ebe2aef7e9c478ccc1257aa","salt":"626b83d3","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 00:24:24"},
+{"id":"18","mail":"abc3","password":"5a1c5b6d8bf6e7df8254bc27b80ee70faa3e41a12593f79b76ec597e64c297e10e3ac48b6e767a56740be1c43f79ab97e1f068888b8f9dc5bda2e350975d2202","salt":"c5a96e99","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 00:26:49"},
+{"id":"19","mail":"abc4","password":"5b875225eebd9390015eb2ea5753a99cd25b72d34beb16134ae0ccfea640578d9fbbcf1862775ddd7d1ce57c32e95517ba4397095b25bcb1b45c13c110da4e60","salt":"68f763c1","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 00:28:15"},
+{"id":"20","mail":"abc5","password":"f3fc12bd83834796223e74b93506b7589d9559916c335c543a22b9ec56a34f3a9c6d493881c412400c3f06d396d5fea7fc92c9823c9e7eea099fb2d01342011a","salt":"acfa85a9","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 00:29:05"},
+{"id":"21","mail":"abc6","password":"5e162d4659ab959528a93d8cb2313ac9b4ed584529cbab6b1e7baa2cc74558694ab7a6f9a57152822f071ed137b686733c45279648f0a86e2b0100c6f1c49de8","salt":"2db1e203","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:23:40"},
+{"id":"22","mail":"abc7","password":"f149292a7885504bfbfe23d1366cf26a370984a313eb3bb1906539d75c2af05777b35e12f383c2370165be4ddb1e3387a67ed64b729e544cf0623c9039fc1a42","salt":"10cfec1c","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:25:56"},
+{"id":"23","mail":"abc8","password":"2750db61bb7b1334099ddb195b2c73f705fef00fa4113568838465a9e4816bce74aed414c52eaff293a752c6f61b5c57054f5ec9c603e4e162d2a658c7509a03","salt":"923ddf73","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:30:26"},
+{"id":"24","mail":"abc9","password":"2377f8603138b481555835365b5f818897f2f19e971092d486cb977368b4d4b5588cca86ca59e82553aa2812484103f385d8559900c82f940395ec1935d7fae3","salt":"e367092b","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:31:21"},
+{"id":"25","mail":"abc10","password":"b4feffd16e5fd681ef4e19d15c190977b6affc4756e14f284b4aa671502062d8fd895acd4c5f4c7a164b7068944f23cee853adbbf096ec919242bfc5cf732b60","salt":"c192c87e","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:31:48"},
+{"id":"26","mail":"abc11","password":"40173288b51aee572f3ab67673ae89ad318292f69acedeb471ead691b4f319d4455fce5848209d68f7800869896f25f4652bb030a6012df69d9ca931454d7a45","salt":"c3470b56","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:34:39"},
+{"id":"27","mail":"abc12","password":"a49aa07921200338f66b39606dbb9dc3bc932eb5f65deaf7d8cd42664a7726eb05395cea86d1a5763b93b647352c648e06852aaf0e965e5ec7716cedfa26a3c1","salt":"5ff83f70","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:35:28"},
+{"id":"28","mail":"abc13","password":"4fc57a9f16e00e3b26e1d8acc19fdc0d33c11804cead455bc72894e15f0ed3f005e4d27f3ef397a9c35ced777f4a88d46b22997df2d8c92fc5ec3a930a385b7b","salt":"a8115821","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:39:59"},
+{"id":"29","mail":"abc14","password":"7692eb23e10f9320bc1708b7eecca6e204df63fe08dc7ae636592adf0263cbc1b1b5428e852d27565fba04c2bd357462e2e11ba836b72e5869013d1f5667970e","salt":"ff4b0916","avatar":"abc","languages":"fr - ","datehr_inscription":"2019-05-26 02:41:23"}
+]
+}
+]
